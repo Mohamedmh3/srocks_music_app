@@ -48,18 +48,32 @@ Make sure to configure Firebase by adding your own google-services.json or Googl
 lib/
 ├── features/
 │   └── home_page/
+│       ├── models/
+│       │   └── service.dart
 │       ├── repositories/
 │       │   └── service_repository.dart
-│       ├── viewmodels/
-│       │   └── home_viewmodel.dart
-│       └── views/
-│           └── home_screen.dart
-├── src/
-│   ├── di/
-│   │   └── locator.dart
-│   └── routing/
-│       └── router.dart
-└── firebase_options.dart
+│       └── viewmodels/
+│           ├── home_navigation_viewmodel.dart
+│           └── home_viewmodel.dart
+├── views/
+│   ├── widgets/
+│   │   ├── detail_screen.dart
+│   │   └── home_screen.dart
+│   └── src/
+│       ├── components/
+│       │   └── svg_icon_widget.dart
+│       ├── di/
+│       │   └── locator.dart
+│       ├── routing/
+│       │   ├── router.dart
+│       │   └── routes.dart
+│       ├── theme/
+│       │   ├── app_icons.dart
+│       │   └── app_images.dart
+│       └── utils/
+│           ├── extensions.dart
+│           └── firebase_options.dart
+└── main.dart
 💡 Using Provider & get_it
 
 📝 License
