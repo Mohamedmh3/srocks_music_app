@@ -52,27 +52,31 @@ lib/
 │       │   └── service.dart
 │       ├── repositories/
 │       │   └── service_repository.dart
-│       └── viewmodels/
-│           ├── home_navigation_viewmodel.dart
-│           └── home_viewmodel.dart
-├── views/
-│   ├── widgets/
-│   │   ├── detail_screen.dart
-│   │   └── home_screen.dart
-│   └── src/
-│       ├── components/
-│       │   └── svg_icon_widget.dart
-│       ├── di/
-│       │   └── locator.dart
-│       ├── routing/
-│       │   ├── router.dart
-│       │   └── routes.dart
-│       ├── theme/
-│       │   ├── app_icons.dart
-│       │   └── app_images.dart
-│       └── utils/
-│           ├── extensions.dart
-│           └── firebase_options.dart
+│       ├── viewmodels/
+│       │   ├── home_navigation_viewmodel.dart
+│       │   └── home_viewmodel.dart
+│       └── views/
+│           ├── home_screen.dart       
+│           ├── detail_screen.dart    
+│           └── widgets/
+│               ├── custom_bottom_nav_bar.dart
+│               ├── custom_button.dart
+│               ├── input_text_form.dart
+│               └── service_card.dart
+├── src/
+│   ├── components/
+│   │   └── svg_icon_widget.dart
+│   ├── di/
+│   │   └── locator.dart
+│   ├── routing/
+│   │   ├── router.dart
+│   │   └── routes.dart
+│   ├── theme/
+│   │   ├── app_icons.dart
+│   │   └── app_images.dart
+│   └── utils/
+│       ├── extensions.dart
+│       └── firebase_options.dart
 └── main.dart
 💡 Using Provider & get_it
 
