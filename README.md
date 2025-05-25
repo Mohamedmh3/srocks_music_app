@@ -1,6 +1,7 @@
 # S.Rocks Music App 🎵
 
 > A Flutter music service app with Firebase integration, Provider state management, and MVVM architecture.
+🎥 [Watch Demo Video](https://drive.google.com/file/d/1ArksgqDeNrmOmmZkfdfIs6z6TIPWs3fH/view?usp=sharing)
 
 ---
 
